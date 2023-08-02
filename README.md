@@ -1,2 +1,2 @@
 # ITI_BI
-Scholarship Via ITi
+Scholarship Via ITI
