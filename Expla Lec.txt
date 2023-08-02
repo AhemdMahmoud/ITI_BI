@@ -1,0 +1,32 @@
+1- Departments (Dno PK, Dname , MGRSSN FK , ...)
+2- Projects (Pno PK, Pname , Ploc , Dno FK...)
+3- Employees (SSN PK, FName , MName , LName , Salary , Bdate ,Dno FK , SuperSSN FK , ...)
+4- Dependent  ((ESSN FK, Fname , R) PK , Sex , Bdate )
+5- Work       ((ESSN FK, Pno FK) PK , Hours)
+6- Dept_Loc   (Dno FK, Dloc) PK
+
+
+
+Properties Of PK:
+- Unique
+- Not NULL
+- Table Contains 1 PK
+
+
+Properties Of FK:
+- Not Unique
+- May Be NULL
+- Table Contains 1 Or More FK
+
+
+T1 (C1 PK , C2)    ,  T2 (C3 PK , C4)
+1:1  Must From Two Sides    T  (C1 PK , C2 , C3 , C4)
+1:1  May From Two Sides    T1 (C1 PK , C2)  , T2 (C3 PK , C4) , T3 (C1 FK, C3 FK) PK
+1:1 Must From T2 , May From T1  T1 (C1 PK , C2)  , T2 (C3 PK , C4 , C1 FK)
+
+
+
+
+
+
+
